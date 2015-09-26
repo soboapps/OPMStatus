@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listentries">
+        <item>Never (Turn off notifications)</item>
+        <item>Every 1 minute</item>
+        <item>Every 15 minutes</item>
+        <item>Every 30 minutes</item>
+        <item>Every hour</item>
+    </string-array>
+    <string-array name="listvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+</resources>

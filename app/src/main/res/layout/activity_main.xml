@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/currentStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/currentStatus"
+            android:textStyle="bold"
+            android:background="#ff333333"
+            android:textColor="#ffffffff"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/lastUpdated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/lastUpdatedAt"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:id="@+id/currentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lastUpdated"
+            android:layout_centerHorizontal="true"
+            android:text="@string/unknown"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/statusLocation"
+        android:text="@string/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/applies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/appliestotxt"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/statusAppliesToTxt"
+            android:text="@string/appliesto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/applies"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/statusImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/status"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/status_unknown" />
+
+    <TextView
+        android:id="@+id/statusPhrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="30dp"
+        android:text="@string/unknown"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center|center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/unknownStatus"
+        android:textAlignment="center"
+        android:paddingBottom="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/refresh"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom" />
+
+</LinearLayout>

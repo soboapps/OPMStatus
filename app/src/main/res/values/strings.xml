@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OPM Operational Status</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">OPM Status</string>
+    <string name="location"> Washington, DC area</string>
+    <string name="appliesto"> Unknown</string>
+    <string name="appliestotxt">Applies To:</string>
+    <string name="status">STATUS: </string>
+    <string name="refresh">Refresh</string>
+    <string name="lastUpdatedAt">Last Updated At:</string>
+    <string name="currentStatus">Current Status</string>
+    <string name="unknown"> Unknown</string>
+    <string name="unknownStatus">Status unknown: Press Refresh</string>
+    <string name="statusTxt">Operational Status Unknown: Please ensure you have a connection to the Internet and then press Refresh to try again.</string>
+
+</resources>
