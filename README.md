@@ -1,3 +1,4 @@
 # OPMStatus
 OPMStatus
-OPM Aletrts is not Working.  
+OPM Alert is not Working using ART.  JPHFan made one that does (Thansk JPHFan),  I just tweaked it.
+
